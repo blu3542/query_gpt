@@ -9,7 +9,7 @@ ChatDB is an interactive command-line interface that allows users to interact wi
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/blu3542/query_gpt.git
-cd chatdb
+cd 'folderName'
 ```
 
 ### 2. Install dependencies
