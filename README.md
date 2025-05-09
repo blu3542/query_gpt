@@ -43,10 +43,15 @@ MONGO_URI=mongodb+srv://your_username:your_password@yourcluster.mongodb.net/
 ```
 
 ├── main.py                      # Entry point for ChatDB
-├── sql/                         # SQL helper logic (query gen, schema analysis)
-│   └── ...
-├── mongo/                       # Mongo helper logic (query gen, classification)
-│   └── ...
+├── sql.py                          # SQL Helper Logic
+├── sql_prompts                     # SQL prompts
+    └── classify_prompt.txt
+    └── error_prompt.txt
+    └── explore_prompt.txt
+    └── modify_prompt.txt
+    └── query_prompt.txt
+  
+├── mongo.py                       # Mongo helper logic (query gen, classification
 ├── requirements.txt             # Python dependencies
 ├── .env                         # API keys (not committed)
 ├── mongo_classify_prompt.txt    # Gemini prompt for Mongo command classification
