@@ -41,7 +41,7 @@ MONGO_URI=mongodb+srv://your_username:your_password@yourcluster.mongodb.net/
 ## 📁 Project Structure
 
 ```
-.
+
 ├── main.py                      # Entry point for ChatDB
 ├── sql/                         # SQL helper logic (query gen, schema analysis)
 │   └── ...
